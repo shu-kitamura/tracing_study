@@ -1,33 +1,34 @@
-# tracing_study
+# tracing 学習
 
 Rust の [`tracing`](https://docs.rs/tracing/latest/tracing/) クレートを使用したログ出力の学習用プロジェクトです。
 
+
 ## 概要
 
-`tracing` と `tracing-subscriber` を使って、様々なログ出力の設定を試すことができます。
-
-## 必要な環境
-
-- Rust (edition 2024)
-- Cargo
-
-## セットアップ
-
-```bash
-# リポジトリをクローン後、依存関係をインストール
-cargo build
-```
-
-## 実行方法
-
-```bash
-cargo run
-```
-
-## 依存クレート
+以下のクレートを使って、様々なログ出力の設定を試した結果です。  
 
 - [tracing](https://crates.io/crates/tracing) - 構造化されたアプリケーションレベルの診断のためのフレームワーク
 - [tracing-subscriber](https://crates.io/crates/tracing-subscriber) - `tracing` のサブスクライバを実装するためのユーティリティ
+
+
+## 環境
+
+Rust と依存クレートのバージョンは以下です。  
+
+```
+$ rustc -V
+rustc 1.88.0 (6b00bc388 2025-06-23)
+$ rustup -V
+rustup 1.28.2 (e4f3ad6f8 2025-04-28)
+info: This is the version for the rustup toolchain manager, not the rustc compiler.
+info: The currently active `rustc` version is `rustc 1.88.0 (6b00bc388 2025-06-23)`
+$ cargo -V
+cargo 1.88.0 (873a06493 2025-05-10)
+$ cat Cargo.toml | grep tracing
+tracing = "0.1.44"
+tracing-subscriber = { version = "0.3.22", features = ["json"] }
+```
+
 
 ## 主な機能・設定項目
 
@@ -91,10 +92,6 @@ cargo run
 ```
 2025-12-30T15:38:56.396182Z  INFO log_test: Hello world!
 ```
-
-## 詳細なドキュメント
-
-各設定項目の詳細な動作説明と出力例は [memo.md](memo.md) を参照してください。
 
 ## ライセンス
 
