@@ -1,0 +1,5 @@
+2025-12-30T19:31:54.655270Z  INFO main ThreadId(01) my_span:my_inner_span: log_test: src/main.rs:44: inside my_inner_span
+2025-12-30T19:31:54.655380Z  INFO main ThreadId(01) my_span: log_test: src/main.rs:46: inside my_span
+2025-12-30T19:31:54.655405Z ERROR main ThreadId(01) log_test: src/main.rs:49: level is error
+2025-12-30T19:31:54.655417Z  WARN main ThreadId(01) log_test: src/main.rs:50: level is warn
+2025-12-30T19:31:54.655434Z  INFO main ThreadId(01) log_test: src/main.rs:51: level is info
