@@ -1,7 +1,9 @@
 # tracing 学習
 
-Rust の [`tracing`](https://docs.rs/tracing/latest/tracing/) クレートを使用したログ出力の学習用プロジェクトです。
+Rust の [`tracing`](https://docs.rs/tracing/latest/tracing/) クレートを使用したログ出力の学習用プロジェクトです。  
+動かしてみた記録は zenn に残しています。  
 
+https://zenn.dev/shu_kitamura/articles/8d18de66294a43
 
 ## 概要
 
