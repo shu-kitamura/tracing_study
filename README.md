@@ -18,10 +18,6 @@ Rust と依存クレートのバージョンは以下です。
 ```
 $ rustc -V
 rustc 1.88.0 (6b00bc388 2025-06-23)
-$ rustup -V
-rustup 1.28.2 (e4f3ad6f8 2025-04-28)
-info: This is the version for the rustup toolchain manager, not the rustc compiler.
-info: The currently active `rustc` version is `rustc 1.88.0 (6b00bc388 2025-06-23)`
 $ cargo -V
 cargo 1.88.0 (873a06493 2025-05-10)
 $ cat Cargo.toml | grep tracing
